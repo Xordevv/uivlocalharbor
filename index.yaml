@@ -1,9 +1,35 @@
 apiVersion: v1
 entries:
+  cneo:
+  - apiVersion: v1
+    appVersion: cneo-3.5.18-1_neo4j-3.5.18
+    created: "2021-02-19T09:18:54.198220338Z"
+    description: Neo4j is the world's leading graph database
+    digest: 87e1c36093bbae109a67a538a2cb95e4bd5e61549973bc02960a5e9c4aec1706
+    home: http://nok.it/CNEO
+    icon: http://info.neo4j.com/rs/773-GON-065/images/neo4j_logo.png
+    keywords:
+    - neo4j
+    - database
+    - graph
+    - 'X-COMPAAS: { "CATEGORY": "Databases", "SVC_NAME": "Neo4j", "SVC_TYPE": "CNEO",
+      "SVC_SCOPE": [ "PRIVATE" ] }'
+    maintainers:
+    - email: csf-osdb-domains@list.nokia.com
+      name: CSF CNEO Team
+    name: cneo
+    sources:
+    - https://github.com/neo4j/neo4j
+    - https://github.com/neo4j/docker-neo4j
+    - https://github.com/mneedham/k8s-kubectl
+    - https://github.com/kubernetes/charts/tree/master/stable/neo4j
+    urls:
+    - cneo-21.0.2-171.tgz
+    version: 21.0.2-171
   ihub-rest-uiv-bhartimano-integration:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-19T07:44:09.835616929Z"
+    created: "2021-02-19T09:18:54.201510248Z"
     description: A Helm chart for Kubernetes
     digest: 13df68aed0b5e16ecae7f11cf5828d4cffc9be47c9da858b16823a703c1f10e2
     name: ihub-rest-uiv-bhartimano-integration
@@ -13,7 +39,7 @@ entries:
   ihub-ui-uiv-bhartimano-integration:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-19T07:44:09.839714073Z"
+    created: "2021-02-19T09:18:54.204643274Z"
     description: A Helm chart for Kubernetes
     digest: b7fc104e70e3cb9ca3d309202daaac995e4d5f5cd6027f10c494b2d03a8f8777
     name: ihub-ui-uiv-bhartimano-integration
@@ -23,17 +49,27 @@ entries:
   uiv-cneo-config-uiv-bhartimano-integration:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-19T07:44:09.843569831Z"
+    created: "2021-02-19T09:18:54.208795541Z"
     description: Post install configurations for Neo4j DB(CNEO)
     digest: ecf9fd8e8fac10bcad74a763b41f732656f77e6799328fe9fc4a720e7f2fa10f
     name: uiv-cneo-config-uiv-bhartimano-integration
     urls:
     - uiv-cneo-config-uiv-bhartimano-integration-1.0.0.tgz
     version: 1.0.0
+  uiv-initialization:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-19T09:18:54.214885325Z"
+    description: A Helm chart for Kubernetes
+    digest: 72e2808d79586f7a31abcc4d638e46b8d382f497572a48cff787d4f0e15451ae
+    name: uiv-initialization
+    urls:
+    - uiv-initialization-21.0.2-171.tgz
+    version: 21.0.2-171
   uiv-minio-config-uiv-bhartimano-integration:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-19T07:44:09.846859113Z"
+    created: "2021-02-19T09:18:54.218450912Z"
     description: Post install configurations for MinIO
     digest: 62b7bbd06d3fe81aa38ff82273401330071ad5d83a5bc611389bbff6120be399
     name: uiv-minio-config-uiv-bhartimano-integration
@@ -43,11 +79,21 @@ entries:
   uiv-sol-techpack-uiv-bhartimano-integration:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-19T07:44:09.852417983Z"
+    created: "2021-02-19T09:18:54.222184583Z"
     description: A Helm chart for Kubernetes
     digest: 8b92c530f07c4cf69d558d33cf79c64a0befbe881dc56fe3d2bed55354539fff
     name: uiv-sol-techpack-uiv-bhartimano-integration
     urls:
     - uiv-sol-techpack-uiv-bhartimano-integration-1.0.0.tgz
     version: 1.0.0
-generated: "2021-02-19T07:44:09.831073423Z"
+  uiv-uam-rest:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-19T09:18:54.225625614Z"
+    description: A Helm chart for Kubernetes
+    digest: a9eb1d997621d963dd1645d500fc9fa3d9e616412ceb503af9fe3470514aa7a8
+    name: uiv-uam-rest
+    urls:
+    - uiv-uam-rest-21.0.2-171.tgz
+    version: 21.0.2-171
+generated: "2021-02-19T09:18:54.194474179Z"
