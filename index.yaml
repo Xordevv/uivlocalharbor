@@ -2,62 +2,22 @@ apiVersion: v1
 entries:
   buildachart:
   - apiVersion: v1
-    appVersion: "1.16.0"
-    created: "2021-02-19T01:14:13.246796383Z"
+    appVersion: 1.16.0
+    created: "2021-02-19T01:29:10.956631791Z"
     description: A Helm chart for Kubernetes
-    digest: c1d8d0b1dc71d1cda6f40703be8454ecc17324de772f524559f9fd5b4f888a8a
+    digest: 9bc242c139d72b7f055f97fb55ab35a82c1f718a4a2e99ec6c4cc6ee84d5fe04
     name: buildachart
     urls:
     - buildachart-0.1.0.tgz
     version: 0.1.0
-  ihub-rest-uiv-bhartimano-integration:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2021-02-19T01:14:13.247585843Z"
-    description: A Helm chart for Kubernetes
-    digest: 37122d7558cc717c4c6ab7445cb6904a77eba8c09ba2df504907c360ba6670a5
-    name: ihub-rest-uiv-bhartimano-integration
-    urls:
-    - ihub-rest-uiv-bhartimano-integration-21.0.2-1.0.0.tgz
-    version: 21.0.2-1.0.0
-  ihub-ui-uiv-bhartimano-integration:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2021-02-19T01:14:13.24810598Z"
-    description: A Helm chart for Kubernetes
-    digest: 7206f770489e413f0f6cfb6e43f2cd3e9c76fb7fd4b664be411656aa89fbaefc
-    name: ihub-ui-uiv-bhartimano-integration
-    urls:
-    - ihub-ui-uiv-bhartimano-integration-21.0.2-1.0.0.tgz
-    version: 21.0.2-1.0.0
-  uiv-cneo-config-uiv-bhartimano-integration:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2021-02-19T01:14:13.2483214Z"
-    description: Post install configurations for Neo4j DB(CNEO)
-    digest: 7010310b6d0a4908d57f061149dd4a8bef8fdf38b2394d6093a161a2e23fcd26
-    name: uiv-cneo-config-uiv-bhartimano-integration
-    urls:
-    - uiv-cneo-config-uiv-bhartimano-integration-21.0.2-1.0.0.tgz
-    version: 21.0.2-1.0.0
-  uiv-minio-config-uiv-bhartimano-integration:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2021-02-19T01:14:13.24864612Z"
-    description: Post install configurations for MinIO
-    digest: 06eecfcf0b86f3cca15ba42e3bbf4e454835fffccdd1458b372bc7e80db097b0
-    name: uiv-minio-config-uiv-bhartimano-integration
-    urls:
-    - uiv-minio-config-uiv-bhartimano-integration-21.0.2-1.0.0.tgz
-    version: 21.0.2-1.0.0
   uiv-sol-techpack-uiv-bhartimano-integration:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-02-19T01:14:13.249880859Z"
+    created: "2021-02-19T01:29:10.957575802Z"
     description: A Helm chart for Kubernetes
-    digest: 7c8bf395dea6edaa999b3dd3214ec4e2867ebb61f2ca74e4b13bf2afa240b56c
+    digest: e63bf779dd3d50f58929410f42f6ed674951bbc460ee759a44bb87a2872c3ef7
     name: uiv-sol-techpack-uiv-bhartimano-integration
     urls:
     - uiv-sol-techpack-uiv-bhartimano-integration-21.0.2-1.0.0.tgz
     version: 21.0.2-1.0.0
-generated: "2021-02-19T01:14:13.246131097Z"
+generated: "2021-02-19T01:29:10.955824062Z"
