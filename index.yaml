@@ -3,11 +3,20 @@ entries:
   buildachart:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2021-02-19T03:12:38.893895791Z"
+    created: "2021-02-19T03:13:40.691391379Z"
     description: A Helm chart for Kubernetes
     digest: 76cbbb16ac69f7a52904566da15c5cf797b12b907ef0a3e8afda84c966445606
     name: buildachart
     urls:
     - buildachart-1.0.0-1.0.0.tgz
     version: 1.0.0-1.0.0
-generated: "2021-02-19T03:12:38.893312686Z"
+  - apiVersion: v1
+    appVersion: 1.16.0
+    created: "2021-02-19T03:13:40.691762189Z"
+    description: A Helm chart for Kubernetes
+    digest: b755b1b018530b50677c431642f1c7766be3b9350d3f5031771384f37ecf876c
+    name: buildachart
+    urls:
+    - buildachart-1.0.0-1.tgz
+    version: 1.0.0-1
+generated: "2021-02-19T03:13:40.690695146Z"
