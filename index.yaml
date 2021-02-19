@@ -3,21 +3,11 @@ entries:
   buildachart:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2021-02-19T02:22:14.526308871Z"
+    created: "2021-02-19T03:12:38.893895791Z"
     description: A Helm chart for Kubernetes
-    digest: 9bc242c139d72b7f055f97fb55ab35a82c1f718a4a2e99ec6c4cc6ee84d5fe04
+    digest: 76cbbb16ac69f7a52904566da15c5cf797b12b907ef0a3e8afda84c966445606
     name: buildachart
     urls:
-    - buildachart-0.1.0.tgz
-    version: 0.1.0
-  uiv-sol-techpack-uiv-bhartimano-integration:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2021-02-19T02:22:14.527121989Z"
-    description: A Helm chart for Kubernetes
-    digest: 46359e478c6a6a5a55eaad38e7b3417a0f2245dc33966c525aabe1343b6ab891
-    name: uiv-sol-techpack-uiv-bhartimano-integration
-    urls:
-    - uiv-sol-techpack-uiv-bhartimano-integration-21.0.2-1.0.tgz
-    version: 21.0.2-1.0
-generated: "2021-02-19T02:22:14.525471069Z"
+    - buildachart-1.0.0-1.0.0.tgz
+    version: 1.0.0-1.0.0
+generated: "2021-02-19T03:12:38.893312686Z"
