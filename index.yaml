@@ -3,7 +3,7 @@ entries:
   cneo:
   - apiVersion: v1
     appVersion: cneo-3.5.18-1_neo4j-3.5.18
-    created: 2021-04-09T02:34:43.788282808Z
+    created: 2021-04-09T03:03:39.908967072Z
     description: Neo4j is the world's leading graph database
     digest: 87e1c36093bbae109a67a538a2cb95e4bd5e61549973bc02960a5e9c4aec1706
     home: http://nok.it/CNEO
@@ -26,24 +26,74 @@ entries:
     urls:
     - https://raw.githubusercontent.com/Xordevv/uivlocalharbor/master/cneo-21.0.2-171.tgz
     version: 21.0.2-171
+  ihub-rest-uiv-bhartimano-integration:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2021-04-09T03:03:39.912261394Z
+    description: A Helm chart for Kubernetes
+    digest: 14bc4d231d2a82234d1ec9993730259b8597bd8db6b1791f58c9eafe431298dd
+    name: ihub-rest-uiv-bhartimano-integration
+    urls:
+    - https://raw.githubusercontent.com/Xordevv/uivlocalharbor/master/ihub-rest-uiv-bhartimano-integration-21.0.2-1.0.0.tgz
+    version: 21.0.2-1.0.0
+  ihub-ui-uiv-bhartimano-integration:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2021-04-09T03:03:39.915738836Z
+    description: A Helm chart for Kubernetes
+    digest: dac1e0f465e3c3a004b4837380e357993f5cd3a914929fbcf7e23a16794e7c15
+    name: ihub-ui-uiv-bhartimano-integration
+    urls:
+    - https://raw.githubusercontent.com/Xordevv/uivlocalharbor/master/ihub-ui-uiv-bhartimano-integration-21.0.2-1.0.0.tgz
+    version: 21.0.2-1.0.0
+  uiv-cneo-config-uiv-bhartimano-integration:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2021-04-09T03:03:39.918295491Z
+    description: Post install configurations for Neo4j DB(CNEO)
+    digest: 1f980b61f2fa43f55155f30daab398355d241dbdc03e39724c32bd21068bd57b
+    name: uiv-cneo-config-uiv-bhartimano-integration
+    urls:
+    - https://raw.githubusercontent.com/Xordevv/uivlocalharbor/master/uiv-cneo-config-uiv-bhartimano-integration-21.0.2-1.0.0.tgz
+    version: 21.0.2-1.0.0
   uiv-initialization:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2021-04-09T02:34:43.798208962Z
+    created: 2021-04-09T03:03:39.924093572Z
     description: A Helm chart for Kubernetes
     digest: 72e2808d79586f7a31abcc4d638e46b8d382f497572a48cff787d4f0e15451ae
     name: uiv-initialization
     urls:
     - https://raw.githubusercontent.com/Xordevv/uivlocalharbor/master/uiv-initialization-21.0.2-171.tgz
     version: 21.0.2-171
+  uiv-minio-config-uiv-bhartimano-integration:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2021-04-09T03:03:39.927109649Z
+    description: Post install configurations for MinIO
+    digest: 90c5c59bdb0fb96c50caa9f48ce552460032ff14314df0b98b04ddabb5cedf54
+    name: uiv-minio-config-uiv-bhartimano-integration
+    urls:
+    - https://raw.githubusercontent.com/Xordevv/uivlocalharbor/master/uiv-minio-config-uiv-bhartimano-integration-21.0.2-1.0.0.tgz
+    version: 21.0.2-1.0.0
+  uiv-sol-techpack-uiv-bhartimano-integration:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2021-04-09T03:03:39.930098359Z
+    description: A Helm chart for Kubernetes
+    digest: 44cab63c346d6a749c037e49a6c106ffe05f8f2acc0e1899343b943c085e50a3
+    name: uiv-sol-techpack-uiv-bhartimano-integration
+    urls:
+    - https://raw.githubusercontent.com/Xordevv/uivlocalharbor/master/uiv-sol-techpack-uiv-bhartimano-integration-21.0.2-1.0.0.tgz
+    version: 21.0.2-1.0.0
   uiv-uam-rest:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2021-04-09T02:34:43.804152875Z
+    created: 2021-04-09T03:03:39.934384032Z
     description: A Helm chart for Kubernetes
     digest: a9eb1d997621d963dd1645d500fc9fa3d9e616412ceb503af9fe3470514aa7a8
     name: uiv-uam-rest
     urls:
     - https://raw.githubusercontent.com/Xordevv/uivlocalharbor/master/uiv-uam-rest-21.0.2-171.tgz
     version: 21.0.2-171
-generated: 2021-04-09T02:34:43.77153082Z
+generated: 2021-04-09T03:03:39.901975578Z
